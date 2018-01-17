@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#Fff"
+    android:padding="8dp">
+
+
+  <ImageView
+      android:id="@+id/imv_icon"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_marginTop="10dp"/>
+
+  <EditText
+      android:id="@+id/tv_content_tweet"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_toRightOf="@+id/imv_icon"
+      android:gravity="top"
+      android:hint="What's happended ?"/>
+
+
+  <Button
+      android:id="@+id/btn_close"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_below="@+id/tv_content_tweet"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/ic_close_black_24dp"/>
+
+  <Button
+      android:id="@+id/btn_tweet"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignTop="@+id/btn_close"
+      android:background="@color/color_item_menu"
+      android:text="Tweet"
+      android:textColor="@color/text_in_color_item_menu"/>
+</RelativeLayout>
+

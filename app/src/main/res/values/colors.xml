@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="background_toolbar">#fff</color>
+  <color name="color_item_menu">#03A9F4</color>
+  <color name="text_in_color_item_menu">#E1F5FE</color>
+  <color name="background_post_item">#fff</color>
+  <color name="background_home">#fff</color>
+  <color name="color_text_user_name">#050505</color>
+  <color name="color_text_screen_name">#938d8d</color>
+</resources>
